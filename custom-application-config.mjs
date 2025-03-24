@@ -12,8 +12,8 @@ const config = {
       initialProjectKey: 'retail-anz',
     },
     production: {
-      applicationId: '1234',
-      url: 'https://example.com',
+      applicationId: 'cm8mqiepu000luu01sw4p4end',
+      url: 'https://live-dashboard-kohl.vercel.app',
     },
   },
   headers: {
