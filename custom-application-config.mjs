@@ -12,8 +12,8 @@ const config = {
       initialProjectKey: 'retail-anz',
     },
     production: {
-      applicationId: 'xxxx',
-      url: 'xxxx',
+      applicationId: '1234',
+      url: 'https://example.com',
     },
   },
   headers: {
