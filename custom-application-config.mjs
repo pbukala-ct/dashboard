@@ -4,7 +4,7 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  * @type {import('@commercetools-frontend/application-config').ConfigOptionsForCustomApplication}
  */
 const config = {
-  name: 'Discounts Preview Calculator',
+  name: 'Live Dashboard ',
   entryPointUriPath,
   cloudIdentifier: 'gcp-au',
   env: {
@@ -12,8 +12,8 @@ const config = {
       initialProjectKey: 'retail-anz',
     },
     production: {
-      applicationId: 'cm73z7rel001mvw01g4envvu2',
-      url: 'https://discount-preview-mc.vercel.app/',
+      applicationId: 'xxxx',
+      url: 'xxxx',
     },
   },
   headers: {
@@ -41,8 +41,8 @@ const config = {
   },
   submenuLinks: [
     {
-      uriPath: 'discounts',
-      defaultLabel: 'Discounts Calculator',
+      uriPath: 'dashboard',
+      defaultLabel: 'Live Dashboard',
       labelAllLocales: [],
       permissions: [PERMISSIONS.View],
     },
