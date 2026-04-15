@@ -1,0 +1,7 @@
+[build]
+  command = "yarn build && yarn compile-html"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NODE_ENV = "production"

@@ -4,16 +4,16 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  * @type {import('@commercetools-frontend/application-config').ConfigOptionsForCustomApplication}
  */
 const config = {
-  name: 'Live Dashboard ',
+  name: 'Discounts Dashboard ',
   entryPointUriPath,
-  cloudIdentifier: 'gcp-au',
+  cloudIdentifier: 'gcp-eu',
   env: {
     development: {
-      initialProjectKey: 'retail-anz',
+      initialProjectKey: 'pb-demo-jan26',
     },
     production: {
-      applicationId: 'cm8mqiepu000luu01sw4p4end',
-      url: 'https://live-dashboard-kohl.vercel.app',
+      applicationId: '${env:CUSTOM_APPLICATION_ID}',
+      url: '${env:APP_URL}',
     },
   },
   headers: {
@@ -42,7 +42,7 @@ const config = {
   submenuLinks: [
     {
       uriPath: 'dashboard',
-      defaultLabel: 'Live Dashboard',
+      defaultLabel: 'Discounts Dashboard',
       labelAllLocales: [],
       permissions: [PERMISSIONS.View],
     },
